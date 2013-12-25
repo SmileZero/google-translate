@@ -45,7 +45,7 @@ class GoogleTranslate
   private
 
   def translate_url(from_lang, to_lang)
-    "#{GOOGLE_TRANSLATE_SERVICE_URL}/translate_a/t?client=t&sl=#{from_lang}&tl=#{to_lang}&hl=pl&sc=2&ie=UTF-8&oe=UTF-8&prev=enter&ssel=0&tsel=0&"
+    "#{GOOGLE_TRANSLATE_SERVICE_URL}/translate_a/t?client=p&sl=#{from_lang}&tl=#{to_lang}&hl=pl&sc=2&ie=UTF-8&oe=UTF-8&prev=enter&ssel=0&tsel=0&"
   end
 
   def speech_url(lang)
